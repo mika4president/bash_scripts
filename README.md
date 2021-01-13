@@ -3,6 +3,8 @@ Collection of usefull bash scripts
 
 
 
+
+
 ## check_host.sh
 **Notification when host just went offline.**
 
