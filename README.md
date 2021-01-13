@@ -6,7 +6,7 @@ Collection of usefull bash scripts
 
 
 ## check_host.sh
-**Notification when host just went offline.**
+**Notification if  ip or host just went offline.**
 
 ![GitHub Logo](/IMAGES/check_host.png)
 
