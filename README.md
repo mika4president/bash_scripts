@@ -18,3 +18,6 @@ Each iteration 5 pings are sent.
 Usage:
 
 ```./check_host.sh {{HOST-OR-IP-ADRESS-HERE}}```
+
+
+PRO-TIP: To run this bash script in the background add the *&* symbol after the host! 
