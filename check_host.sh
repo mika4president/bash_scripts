@@ -9,7 +9,7 @@ do
         if [[ $? -ne 0 ]]; then
 	   echo 'offline'
            echo $1 ' is no longer reachable'
-           osascript -e 'display notification " '$1' is no longer reachable" sound name "Submarine"'
+           osascript -e 'display notification " '$1' is no longer reachable" sound name "Submarine"  with Title "CHECK-HOST SCRIPT" '
 	   exit
 	else
   	   echo 'online' # if you want feedback when OK
