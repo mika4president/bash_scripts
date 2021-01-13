@@ -12,7 +12,7 @@ Collection of usefull bash scripts
 
 Bash script that checks (every 10sec) if a specific host, website or IP-address is no longer online (reachable via ping).
 To be be used on OSX, since it use Applescript to gives notification on OSX.
-Each itteration 5 pings are sent.
+Each iteration 5 pings are sent.
 
 
 Usage:
