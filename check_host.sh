@@ -5,7 +5,7 @@ fi
 
 while true;
 do
-	ping -c 1 $1 &> /dev/null
+	ping -c5 $1 &> /dev/null
         if [[ $? -ne 0 ]]; then
 	   echo 'offline'
            echo $1 ' is no longer reachable'
@@ -15,5 +15,5 @@ do
   	   echo 'online' # if you want feedback when OK
 	   echo 'online' > /dev/null # if you don't want feedback when host OK
 	fi
-	sleep 5
+	sleep 10
 done

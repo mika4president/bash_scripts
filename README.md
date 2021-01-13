@@ -10,11 +10,11 @@ Collection of usefull bash scripts
 
 ![GitHub Logo](/IMAGES/check_host.png)
 
-Bash script that checks (every 5sec) if a specific host, website or IP-address is no longer online (reachable via ping).
+Bash script that checks (every 10sec) if a specific host, website or IP-address is no longer online (reachable via ping).
 To be be used on OSX, since it use Applescript to gives notification on OSX.
-
+Each itteration 5 pings are sent.
 
 
 Usage:
 
-./check_host.sh {{HOST-OR-IP-ADRESS-HERE}}
+```./check_host.sh {{HOST-OR-IP-ADRESS-HERE}}```
